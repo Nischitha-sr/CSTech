@@ -1,18 +1,14 @@
 package com.notion.testscript;
-
 import java.io.File;
 import java.time.LocalDateTime;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
 import com.notion.generic.BaseClass;
 import com.notion.generic.FileUtility;
 import com.notion.pom.homePage;
 import com.notion.pom.LoginPage;
-
 
 public class TestFileUpload extends BaseClass {
 	@Test
